@@ -4,4 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+    pilacarreta.cpp \
+    listacliente.cpp
+
+HEADERS += \
+    pilacarreta.h \
+    listacliente.h
